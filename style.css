@@ -1,0 +1,10 @@
+body,
+html {
+  height: 100%;
+}
+
+.bg {
+  background-image: url("./resources/background.jpeg");
+  height: 100%;
+  background-size: cover;
+}
