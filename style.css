@@ -1,6 +1,9 @@
 body,
 html {
   background-image: url("./resources/background.jpeg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
   height: 100%;
 }
 
@@ -8,11 +11,16 @@ html {
   height: auto;
 }
 
-/* .bg {
-  height: 100%;
-  background-size: cover;
-} */
+header {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.dropdown-menu-right {
+  right: 0;
+  left: auto;
+}
 
 * {
-  /* border: 1px solid black; */
+  border: 1px solid black;
 }
