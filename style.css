@@ -32,10 +32,16 @@ html {
   font-family: Georgia, serif;
 }
 
-.carousel-item .carousel-inner {
+.carousel-item {
   height: 500px;
-  background-size: cover;
-  background-position: center center;
+}
+
+.carousel-item img {
+  position: absolute;
+  object-fit: cover;
+  top: 0;
+  left: 0;
+  min-height: 500px;
 }
 
 header {
@@ -79,4 +85,18 @@ svg {
 .img-hover-zoom-colorize:hover img {
   filter: grayscale(0);
   transform: scale(1.1);
+}
+
+.projects > h2 {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.card-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.card-img-top {
+  height: 20vh;
 }
