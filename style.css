@@ -22,7 +22,14 @@ html {
 }
 
 #intro {
+  background-color: white;
+}
+
+#intro > p {
+  margin-top: 10px;
   text-align: center;
+  font-style: italic;
+  font-family: Georgia, serif;
 }
 
 .carousel-item .carousel-inner {
@@ -38,7 +45,14 @@ header {
   margin-top: 30px;
   text-align: center;
   height: 100vh;
-  border: 1px solid red;
+  /* border: 1px solid red; */
+}
+
+h1,
+h2 {
+  font-family: "Bree Serif", serif;
+  /* color: #302166; */
+  margin-bottom: 30px;
 }
 
 svg {
@@ -46,6 +60,23 @@ svg {
   margin-right: auto;
   height: 50px;
   width: 50px;
-  border: 1px solid black;
+  border: 2px solid black;
   border-radius: 50%;
+}
+
+/* hover effects: https://w3bits.com/css-image-hover-zoom/ */
+
+.img-hover-zoom-colorize {
+  height: auto;
+  overflow: hidden;
+}
+
+.img-hover-zoom-colorize img {
+  transition: transform 0.5s, filter 1.5s ease-in-out;
+  filter: grayscale(100%);
+}
+
+.img-hover-zoom-colorize:hover img {
+  filter: grayscale(0);
+  transform: scale(1.1);
 }
