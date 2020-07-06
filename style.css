@@ -61,6 +61,10 @@ h2 {
   margin-bottom: 30px;
 }
 
+a {
+  color: black;
+}
+
 svg {
   margin-left: auto;
   margin-right: auto;
@@ -75,6 +79,7 @@ svg {
 .img-hover-zoom-colorize {
   height: auto;
   overflow: hidden;
+  margin-top: 2em;
 }
 
 .img-hover-zoom-colorize img {
@@ -147,4 +152,10 @@ svg {
 
 .my-icons > a {
   margin-left: 10px;
+}
+
+.scroll-icon {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
 }
